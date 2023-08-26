@@ -55,7 +55,7 @@ export default function Gallery() {
     position: "absolute",
     width: "200px",
     height: "200px",
-    top: "60%",
+    top: "70%",
     left: "65%",
     borderRadius: "5px",
   };
