@@ -1,0 +1,19 @@
+.nav-links {
+  color: #C2C2C2;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.active-link {
+  color: 
+  #FAFF00;
+}
+
+
+.App {
+  background-color: black;
+  height: 55px;
+}

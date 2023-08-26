@@ -1,0 +1,44 @@
+/* App.css */
+.App {
+  background-color: black;
+  min-height: 100vh; /* Ensure the app takes at least the full viewport height */
+  background-image: url('/public/c3e2ebd4ca48f426434c767dd68d037a.png');
+}
+
+/* Other styles remain the same */
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .Intro {
+  
+  }
+  .Roadmap {
+
+  }
+  .Gallery {
+
+  }
+  .Faq {
+
+  }
+
+  /* Add other necessary adjustments */
+}
+
+/* Add more media queries for smaller screen sizes */
+@media (max-width: 768px) {
+  .Intro {
+  
+  }
+  .Roadmap {
+
+  }
+  .Gallery {
+
+  }
+  .Faq {
+    
+  }
+
+  /* Add other necessary adjustments */
+}
