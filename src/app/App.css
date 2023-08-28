@@ -30,23 +30,3 @@
   /* Add other necessary adjustments */
 }
 
-/* Add more media queries for smaller screen sizes */
-@media (max-width: 768px) {
-  .Intro {
-
-    padding-left: 0rem;
-    }
-    .Roadmap {
-
-      padding-left: 1rem;
-    }
-    .Gallery {
-  
-      padding-left: 4rem;
-    }
-    .Faq {
-    padding-left: 6rem;
-    }
-
-  /* Add other necessary adjustments */
-}

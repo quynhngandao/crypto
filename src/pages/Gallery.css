@@ -25,59 +25,59 @@
 .imageStyle3 {
     width: 200px;
     height: 200px;
-  }
-  
-  .imageStyle2 {
+}
+
+.imageStyle2 {
     width: 300px;
     height: 300px;
-  }
-  
-  .imageStyle1 {
+}
+
+.imageStyle1 {
     width: 90px;
     height: 90px;
-  }
-  
-  .imageContainerStyle3 {
+}
+
+.imageContainerStyle3 {
     position: absolute;
     width: 200px;
     height: 200px;
     top: 60%;
     left: 60%;
     border-radius: 5px;
-  }
-  
-  .imageContainerStyle2 {
+}
+
+.imageContainerStyle2 {
     position: absolute;
     width: 300px;
     height: 300px;
     top: 13%;
     left: 66%;
     border-radius: 5px;
-  }
-  
-  .imageContainerStyle1 {
+}
+
+.imageContainerStyle1 {
     position: absolute;
     width: 90px;
     height: 90px;
     top: 43%;
     left: 57%;
     border-radius: 5px;
-  }
+}
 
 
 @media (max-width: 768px) {
     .gallery-title {
 
         top: 10%;
-     
-    
+
+
     }
-    
+
     .gallery-paragraph {
-     
+
         top: 20%;
         font-size: 2vw;
-max-width: 190px;
+        max-width: 190px;
         line-height: 20px;
         text-align: center;
         word-spacing: 0.3rem;
@@ -86,37 +86,37 @@ max-width: 190px;
     .imageStyle3 {
         width: 100px;
         height: 100px;
-      }
-      
-      .imageStyle2 {
+    }
+
+    .imageStyle2 {
         width: 200px;
         height: 200px;
-      }
-      
-      .imageStyle1 {
+    }
+
+    .imageStyle1 {
         width: 70px;
         height: 70px;
-      }
-      
+    }
+
     .imageContainerStyle3 {
-      
+
         top: 50%;
         left: 73%;
-      
-      }
-      
-      .imageContainerStyle2 {
+
+    }
+
+    .imageContainerStyle2 {
         position: absolute;
 
         top: 15%;
         left: 53%;
 
-      }
-      
-      .imageContainerStyle1 {
+    }
+
+    .imageContainerStyle1 {
         position: absolute;
         top: 50%;
         left: 53%;
 
-      }
+    }
 }

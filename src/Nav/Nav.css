@@ -1,17 +1,22 @@
-
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 .nav-links {
   color: #C2C2C2;
   text-decoration: none;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 100px;
 }
 
 .active-link {
-  color: 
-  #FAFF00;
+  color:
+    #FAFF00;
 }
 
 
@@ -20,16 +25,24 @@
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    color: #C2C2C2;
-    text-decoration: none;
-    list-style-type: none;
-    display: inline;
-  }
 
   .active-link {
-    color: 
-    #FAFF00;
+    color:
+      #FAFF00;
+  }
+
+  .nav-links {
+
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
-
