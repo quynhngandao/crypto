@@ -1,142 +1,38 @@
 import React from "react";
+import '../pages/Faq.css'
 
 export default function Faq() {
-  const textStyle = {
-    position: "absolute",
-    top: "10%", // Relative position from top
-    left: "10%", // Relative position from left
-    width: "70%", // Relative width
-    color: "#FAFF00",
-    fontSize: "7vw", // Relative font size
-    fontWeight: "700",
-    letterSpacing: "0em",
-    textAlign: "left",
-    wordWrap: "break-word",
-  };
-
-  const businessInfoStyle = {
-    position: "absolute",
-    top: "40%", // Relative position from top
-    left: "10%", // Relative position from left
-    width: "70%", // Relative width
-    height: "141px",
-    color: "#EEEEE5",
-    fontSize: "2vw", // Relative font size
-    fontWeight: 300,
-    textAlign: "left",
-    wordWrap: "break-word",
-    wordSpacing: "0.5em",
-  };
 
   const copyrightStyle = {
     position: "absolute",
-    top: "17%", // Relative position from top
-    left: "-2%", // Relative position from left
+    top: "15%", // Relative position from top
+    left: "-10%", // Relative position from left
     padding: "2px",
     borderRadius: "500px",
-    fontSize: "23px",
+    fontSize: "2vw",
     color: "#FAFF00",
   };
 
-  const mintPriceContainerStyle = {
-    width: "20%", // Adjust the width as needed
-    height: "27%",
-    top: "60%",
-    left: "10%",
-    padding: "0px 5%",
-    borderRadius: "10px",
-    border: "1px solid #454545",
-    background: "#0B0D0E",
-    display: "inline-flex",
-    justifyContent: "center",
-    alignItems: "center",
-    overflow: "hidden",
-    position: "absolute",
-  };
-const mintPriceTextStyle = {
-  color: "#454545",
-  fontSize: "3vw",
-  fontWeight: "700",
-  wordWrap: "break-word",
-};
 
-const rebirthContainerStyle = {
-  width: "20%", // Adjust the width as needed
-  height: "27%",
-    top: "60%",
-    left: "45%",
-  padding: "0px 10%",
-  borderRadius: "10px",
-  border: "1px solid #454545",
-  background: "#0B0D0E",
-  display: "inline-flex",
-  justifyContent: "center",
-  alignItems: "center",
-  overflow: "hidden",
-  position: "absolute",
-};
-
-const rebirthTextStyle = {
-
-  color: "#454545",
-  fontSize: "3vw",
-  fontWeight: "700",
-  wordWrap: "break-word",
-};
-
-const supplyContainerStyle = {
-  top: "15%",
-  left: "50%",
-  padding: "5% 10%",
-  borderRadius: "10px",
-  border: "1px solid #FAFF00",
-  background: "#0B0D0E",
-  display: "inline-flex",
-  flexDirection: "column",
-  justifyContent: "center",
-  alignItems: "center",
-  gap: "10px",
-  overflow: "hidden",
-  position: "absolute",
-  letterSpacing: "0.1em",
-  wordSpacing: "0.2em",
-};
-
-const supplyTextStyle = {
-  color: "#EEEEE5",
-  fontSize: "3vw",
-  fontWeight: "700",
-  wordWrap: "break-word",
-  letterSpacing: "0.1em",
-  wordSpacing: "0.2em",
-};
-
-const cyborgsTextStyle = {
-  textAlign: "center",
-  color: "#FAFF00",
-  fontSize: "1.5vw",
-  fontWeight: "300",
-  wordWrap: "break-word",
-};
 
   return (
     <div className="Faq responsive">
-    <div className="title" style={{ width: "100%" }}>
-      <h1 style={textStyle}>
+    <div className="title" >
+      <h1 className="faq-title">
         <span style={copyrightStyle}>&copy;</span> {'// FAQ.'}
       </h1>
-      <div className="paragraph" style={businessInfoStyle}>
+      <div className="faq-paragraph">
         GOT QUESTIONS? WE GOT <br/> ANSWERS.
       </div>
-      <div className="mint-price" style={mintPriceContainerStyle}>
-        <div style={mintPriceTextStyle}>{'//MINT PRICE'}</div>
+      <div className="mintPriceContainer">
+        <div className="mintPriceText">{'//MINT PRICE'}</div>
       </div>
-      <div style={rebirthContainerStyle}>
-        <div style={rebirthTextStyle}>{'//REBIRTH'}</div>
+      <div className="rebirthContainerStyle">
+        <div className="rebirthTextStyle">{'//REBIRTH'}</div>
       </div>
-      <div style={supplyContainerStyle}>
-          <div style={supplyTextStyle}>{'//SUPPLY'}</div>
-        <div style={cyborgsTextStyle}>
+      <div className="supplyContainerStyle">
+          <div className="supplyTextStyle">{'//SUPPLY'}</div>
+        <div className="cyborgsTextStyle">
           9999 CYBORGS
           <br />
           630 OG-CYBORGS

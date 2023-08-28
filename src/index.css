@@ -1,4 +1,4 @@
-body {
+* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -8,6 +8,10 @@ body {
   background-image: url('/public/c3e2ebd4ca48f426434c767dd68d037a.png');
   background-color: rgb(0, 0, 0);
   position: relative; /* Add this to make the container relative */
+  margin: 0;
+  max-width: 100%;
+  width: 100%; /* Set width to 100% */
+  height: 100vh; /* Set height to cover the entire viewport height */
 }
 
 

@@ -1,0 +1,236 @@
+/* Default styles for the text */
+.roadmap-title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #FAFF00;
+    font-size: 6vw;
+    font-weight: 700;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.roadmap-paragraph {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 70%;
+    color: #EEEEE5;
+    font-size: 2vw;
+    font-weight: 300;
+    line-height: 47px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+
+
+/* Common styles for vending machine containers */
+.vendingMachineContainer {
+    min-width: 50px;
+    /* Set your desired minimum width */
+    min-height: 100px;
+    /* Set your desired minimum height */
+    width: 9%;
+    height: 30%;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #454545;
+    overflow: hidden;
+    background: #0B0D0E;
+    margin-top: 3%;
+    -ms-transform-origin-x: 20px;
+    top: 50%;
+}
+
+/* Common styles for vending machine images */
+.vendingMachineImage {
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+/* Common styles for vending machine headings */
+.vendingMachineHeading {
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 100%;
+    font-size: 1vw;
+    font-weight: 700;
+    color: #C2C2C2;
+    word-wrap: break-word;
+}
+
+/* Common styles for vending machine subheadings */
+.vendingMachineSubheading {
+    position: absolute;
+    top: 81%;
+    width: 100%;
+    text-align: center;
+    font-size: .8vw;
+    font-weight: 400;
+    color: #FAFF00;
+    word-wrap: break-word;
+}
+
+
+/* Percentage Text Styles */
+.percentageText {
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    color: #C2C2C2;
+    width: 38px;
+    height: 23px;
+    padding-right: 20px;
+    margin-left: 55%;
+    transform: translateX(-50%);
+}
+.percentageText.ten {
+    top: 20%;
+}
+.percentageText.forty {
+    top: 37%;
+}
+.percentageText.fifty {
+    top: 65%;
+}
+
+.percentageSubtext {
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    color: #FAFF00;
+    width: 34px;
+    height: 18px;
+    padding-right: 20px;
+    
+}
+
+.percentageSubtext.team {
+    margin-left: 55%;
+    transform: translateX(-60%);
+    top: 23%;
+}
+.percentageSubtext.holders {
+    margin-left: 55%;
+    transform: translateX(-90%);
+    top: 40%;
+}
+.percentageSubtext.expansion {
+    margin-left: 55%;
+    transform: translateX(-100%);
+    top: 68%;
+}
+
+/* Vending Container Styles */
+.vendingContainer {
+    width: 306px;
+    height: 528px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Vending Image Styles */
+.vendingImage {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+/* Override styles for smaller screens */
+@media (max-width: 768px) {
+    .roadmap-title {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        color: #FAFF00;
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: left;
+        word-wrap: break-word;
+    }
+
+    .roadmap-paragraph {
+        position: absolute;
+        top: 39%;
+        left: 10%;
+        color: #EEEEE5;
+        font-size: .8rem;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: left;
+        word-spacing: .1rem;
+        max-width: 180px;
+    }
+
+    /* Vending Image Styles */
+    .vendingImage {
+        width: 153px;
+        height: 264px;
+        top: 25%;
+    }
+
+    /* Percentage Text Styles */
+    .percentageText {
+        font-size: 0.5rem;
+        margin-left: 55%;
+        transform: translateX(-50%);
+    }
+    .percentageSubtext {
+        font-size: 0.5rem;
+        margin-left: 55%;
+        transform: translateX(-50%);
+    }
+
+    /* Common styles for vending machine containers */
+    .vendingMachineContainer {
+        min-width: 50px;
+        /* Set your desired minimum width */
+        min-height: 100px;
+        /* Set your desired minimum height */
+        height: 10%;
+    }
+
+    .vendingMachineContainer{
+        top: 55%;
+        /* Adjust the value as needed */
+      
+    }
+    .percentageText.ten {
+        top: 37%;
+    }
+    .percentageSubtext.team {
+        margin-left: 55%;
+        transform: translateX(-50%);
+        top: 40%;
+    }
+    .percentageText.forty {
+        top: 47%;
+    }
+    .percentageSubtext.holders {
+        margin-left: 55%;
+        transform: translateX(-60%);
+        top: 50%;
+    }
+    .percentageText.fifty {
+        top: 60%;
+    }
+    .percentageSubtext.expansion {
+        margin-left: 55%;
+        transform: translateX(-70%);
+        top: 63%;
+    }
+   
+   
+  
+}

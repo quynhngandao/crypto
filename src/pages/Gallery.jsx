@@ -1,90 +1,27 @@
 import React from "react";
+import '../pages/Gallery.css'
 
 export default function Gallery() {
 
-    const textStyle = {
-      position: "absolute",
-      top: "10%", // Relative position from top
-      left: "10%", // Relative position from left
-      width: "70%", // Relative width
-      color: "#FAFF00",
-      fontSize: "7vw", // Relative font size
-      fontWeight: "700",
-      letterSpacing: "0em",
-      textAlign: "left",
-      wordWrap: "break-word",
-    };
   
-    const businessInfoStyle = {
-      position: "absolute",
-      top: "40%", // Relative position from top
-      left: "10%", // Relative position from left
-      width: "60%", // Relative width
-      color: "#EEEEE5",
-      fontSize: "2vw", // Relative font size
-      fontWeight: 300,
-      lineHeight: "35px",
-      textAlign: "left",
-      wordSpacing: "0.5em",
-    };
-
     const copyrightStyle = {
       position: "absolute",
       top: "17%", // Relative position from top
-      left: "-2%", // Relative position from left
+      left: "-5%", // Relative position from left
       padding: "2px",
       borderRadius: "500px",
-      fontSize: "23px",
+      fontSize: "2vw",
       color: "#FAFF00",
     };
 
-  const imageStyle3 = {
-    width: "200px",
-    height: "200px",
-  };
-  const imageStyle2 = {
-    width: "300px",
-    height: "300px",
-  };
-  const imageStyle1 = {
-    width: "82px",
-    height: "82px",
-  };
-
-  const imageContainerStyle3 = {
-    position: "absolute",
-    width: "200px",
-    height: "200px",
-    top: "70%",
-    left: "65%",
-    borderRadius: "5px",
-  };
-
-  const imageContainerStyle2 = {
-    position: "absolute",
-    width: "300px",
-    height: "300px",
-    top: "15%",
-    left: "70%",
-    borderRadius: "5px",
-  };
-  const imageContainerStyle1 = {
-    position: "absolute",
-    width: "82px",
-    height: "82px",
-    top: "45%",
-    left: "62%",
-    borderRadius: "5px",
-  };
-
   return (
     <div className="Gallery responsive">
-    <div className="title" style={{ width: "100%" }}>
-      <h1 style={textStyle}>
+    <div className="title" >
+      <h1 className="gallery-title">
         <span style={copyrightStyle}>&copy;</span>
         {"//ARTWORK"}
       </h1>
-      <div className="paragraph" style={businessInfoStyle}>
+      <div className="gallery-paragraph">
         THE CHAMBERS HAVE ASCENDED TO EARTH,
         <br />
         THEY ARE DRAWN TO THE INNOVATORS WITH 
@@ -102,14 +39,14 @@ export default function Gallery() {
         <br />
         FINEST INNOVATORS.
       </div>
-      <div style={{ top: "10%", left: "70%", ...imageContainerStyle3 }}>
-        <img style={imageStyle3} src="/image3.png" alt="Artwork" />
+      <div className="imageContainerStyle3" >
+        <img className="imageStyle3" src="/image3.png" alt="Artwork" />
       </div>
-      <div style={{ top: "10%", left: "60%", ...imageContainerStyle2 }}>
-        <img style={imageStyle2} src="/image2.png" alt="Artwork" />
+      <div  className="imageContainerStyle2" >
+        <img className="imageStyle2" src="/image2.png" alt="Artwork" />
       </div>
-      <div style={{ top: "30%", left: "60%", ...imageContainerStyle1 }}>
-        <img style={imageStyle1} src="/image1.png" alt="Artwork" />
+      <div className="imageContainerStyle1"  >
+        <img className="imageStyle1" src="/image1.png" alt="Artwork" />
       </div>
       {/* arrow */}
       <div style={{ position: "absolute", top: "90%", left: "50%" }}>

@@ -1,0 +1,53 @@
+
+  /* Default styles for the text */
+.intro-title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #FAFF00;
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .intro-paragraph {
+    position: absolute;
+    top: 55%; 
+    left: 10%; 
+    width: 70%; 
+    color: #EEEEE5;
+    font-size: 2rem; 
+    font-weight: 300;
+    line-height: 47px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  
+  /* Override styles for smaller screens */
+  @media (max-width: 768px) {
+    .intro-title {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    color: #FAFF00;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+    word-wrap: break-word;
+    }
+    .intro-paragraph {
+        position: absolute;
+        top: 40%; 
+        left: 10%; 
+        color: #EEEEE5;
+        font-size: 1rem; 
+        font-weight: 300;
+        line-height: 40px;
+        text-align: left;
+        word-spacing: .2rem;
+
+      }
+}
+
+

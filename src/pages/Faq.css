@@ -1,0 +1,172 @@
+ /* Default styles for the text */
+ .faq-title {
+     position: absolute;
+     top: 10%;
+     left: 10%;
+     color: #FAFF00;
+     font-size: 6vw;
+     font-weight: 700;
+     text-align: left;
+     word-wrap: break-word;
+ }
+
+ .faq-paragraph {
+     position: absolute;
+     top: 35%;
+     left: 10%;
+     width: 70%;
+     color: #EEEEE5;
+     font-size: 2vw;
+     font-weight: 300;
+     line-height: 47px;
+     text-align: left;
+     word-wrap: break-word;
+ }
+
+ .mintPriceContainer {
+     width: 20%;
+     height: 27%;
+     top: 60%;
+     left: 10%;
+     padding: 0px 5%;
+     border-radius: 10px;
+     border: 1px solid #454545;
+     background: #0B0D0E;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     position: absolute;
+ }
+
+ .mintPriceText {
+     color: #454545;
+     font-size: 3vw;
+     font-weight: 700;
+     word-wrap: break-word;
+ }
+
+
+ .rebirthContainerStyle {
+     width: 20%;
+     height: 27%;
+     top: 60%;
+     left: 45%;
+     padding: 0px 10%;
+     border-radius: 10px;
+     border: 1px solid #454545;
+     background: #0B0D0E;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     position: absolute;
+ }
+
+ .rebirthTextStyle {
+     color: #454545;
+     font-size: 3vw;
+     font-weight: 700;
+     word-wrap: break-word;
+ }
+
+.supplyContainerStyle {
+    top: 15%;
+    left: 50%;
+    padding: 5% 10%;
+    border-radius: 10px;
+    border: 1px solid #FAFF00;
+    background: #0B0D0E;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    position: absolute;
+    letter-spacing: 0rem;
+    word-spacing: 0.2rem;
+ }
+
+ .supplyTextStyle {
+    color: #EEEEE5;
+    font-size: 3vw;
+    font-weight: 700;
+    word-wrap: break-word;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+ }
+
+ .cyborgsTextStyle {
+    text-align: center;
+    color: #FAFF00;
+    font-size: 1.5vw;
+    font-weight: 300;
+    word-wrap: break-word;
+ }
+
+ /* Override styles for smaller screens */
+ @media (max-width: 768px) {
+     .faq-title {
+         position: absolute;
+         top: 30%;
+         left: 10%;
+         color: #FAFF00;
+         font-size: 2.5rem;
+         font-weight: 700;
+         text-align: left;
+         word-wrap: break-word;
+     }
+
+     .faq-paragraph {
+         position: absolute;
+         top: 45%;
+         left: 10%;
+         color: #EEEEE5;
+         font-size: .8rem;
+         font-weight: 300;
+         line-height: 25px;
+         text-align: left;
+         word-spacing: .2rem;
+     }
+
+     .mintPriceContainer {
+         height: 15%;
+         top: 55%;
+     }
+
+     .mintPriceText {
+         font-size: 2.5vw;
+     }
+
+     .rebirthContainerStyle {
+        top: 55%;
+         height: 15%;
+         left: 47%;
+
+     }
+
+     .rebirthTextStyle {
+
+         font-size: 2.5vw;
+
+     }
+
+     .supplyContainerStyle {
+        top: 35%;
+        left: 50%;
+       
+     }
+    
+     .supplyTextStyle {
+
+        font-size: 2.5vw;
+   
+     }
+    
+     .cyborgsTextStyle {
+    
+        font-size: 1.8vw;
+       
+     }
+ }

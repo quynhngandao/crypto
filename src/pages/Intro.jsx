@@ -1,65 +1,27 @@
 import React from "react";
-import styled from 'styled-components';
-
-const ResponsiveIntro = styled.div`
-  position: absolute;
-  top: "15%", // Relative position from top
-  left: "10%", // Relative position from left
-  width: "80%", // Relative width
-  font-size: 24px;
-
-  @media (max-width: 768px) {
-    top: 30px;
-    font-size: 18px;
-  }
-`;
-
+import '../pages/Intro.css'
 function Intro() {
-  const textStyle = {
-    position: "absolute",
-    top: "10%", // Relative position from top
-    left: "10%", // Relative position from left
-    width: "70%", // Relative width
-    color: "#FAFF00",
-    fontSize: "7vw", // Relative font size
-    fontWeight: "700",
-    letterSpacing: "0em",
-    textAlign: "left",
-    wordWrap: "break-word",
-  };
 
-  const businessInfoStyle = {
-    position: "absolute",
-    top: "55%", // Relative position from top
-    left: "10%", // Relative position from left
-    width: "70%", // Relative width
-    height: "141px",
-    color: "#EEEEE5",
-    fontSize: "2vw", // Relative font size
-    fontWeight: 300,
-    lineHeight: "47px",
-    textAlign: "left",
-    wordWrap: "break-word",
-  };
+ 
 
   const copyrightStyle = {
     position: "absolute",
     top: "10%", // Relative position from top
-    left: "-2%", // Relative position from left
+    left: "-5%", // Relative position from left
     padding: "2px",
     borderRadius: "500px",
-    fontSize: "23px",
+    fontSize: "2vw",
     color: "#FAFF00",
   };
 
   return (
     <div className="Intro responsive">
-    <div className="title" style={{ width: "100%" }}>
-      <h1 style={textStyle}>
+    <div className="title">
+      <h1 className="intro-title">
         {" "}
         <span style={copyrightStyle}>&copy;</span> //A NEW ERA <br/> BEGINS.
       </h1>
-      <div className="paragraph" style={businessInfoStyle}>
+      <div className="intro-paragraph">
         VENDX IS THE FIRST OFFICIAL LICENSED SOLANA BASED VENDING & ARCADE
         BUSINESS, AND WE AIM TO EXPAND ACROSS GERMANY AND NEIGHBORING COUNTRIES.
       </div>
