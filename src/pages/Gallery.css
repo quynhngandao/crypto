@@ -11,7 +11,7 @@
 
 .gallery-paragraph {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 10%;
     width: 60%;
     color: #EEEEE5;
@@ -68,14 +68,14 @@
 @media (max-width: 768px) {
     .gallery-title {
 
-        top: 10%;
+        top: 15%;
 
 
     }
 
     .gallery-paragraph {
 
-        top: 20%;
+        top: 25%;
         font-size: 2vw;
         max-width: 190px;
         line-height: 20px;
@@ -100,7 +100,7 @@
 
     .imageContainerStyle3 {
 
-        top: 50%;
+        top: 55%;
         left: 73%;
 
     }
@@ -108,14 +108,14 @@
     .imageContainerStyle2 {
         position: absolute;
 
-        top: 15%;
+        top: 25%;
         left: 53%;
 
     }
 
     .imageContainerStyle1 {
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 53%;
 
     }

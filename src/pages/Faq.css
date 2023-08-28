@@ -86,6 +86,7 @@
     position: absolute;
     letter-spacing: 0rem;
     word-spacing: 0.2rem;
+    height: 15%;
  }
 
  .supplyTextStyle {
@@ -155,7 +156,7 @@
      .supplyContainerStyle {
         top: 35%;
         left: 50%;
-       
+        height: 10%;
      }
     
      .supplyTextStyle {
